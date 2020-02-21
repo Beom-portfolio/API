@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{ac779c58-c055-448e-bfbd-4e46595e8c68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default\헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="99.Default\소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="99.Default\리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="02.Scene">
+      <UniqueIdentifier>{0df1ff9d-4582-451b-a1d4-8e845264b334}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\01.Logo">
+      <UniqueIdentifier>{8791e802-dae0-4c1d-a8f9-d44c676f5e57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\02.MyMenu">
+      <UniqueIdentifier>{036d3028-fa78-4c34-ad07-055f066d5b30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\03.Stage">
+      <UniqueIdentifier>{a3437c0a-8f07-4da9-bdb5-eb6ea07aed38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\04.Edit">
+      <UniqueIdentifier>{e97edafe-e273-4dc3-a20b-a90d48fae3c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\02.SelectPlayer">
+      <UniqueIdentifier>{9b1c5a9b-da57-43e3-968a-dbc3ac822900}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject">
+      <UniqueIdentifier>{83241845-9ec4-4f2b-852d-a535589a0740}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.Player">
+      <UniqueIdentifier>{6aa679e8-a7da-4ff9-b554-88f7fb1cf36a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\02.Button%28삭제 예정%29">
+      <UniqueIdentifier>{6af8ba40-6466-4ad3-9535-6e23e3ebbf68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.MainGame">
+      <UniqueIdentifier>{ba4cd301-9b28-4cdf-a65e-120a81b4b8ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager">
+      <UniqueIdentifier>{a89feac4-ac20-4674-835c-665a2855a55f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Include">
+      <UniqueIdentifier>{0c49aafc-8e15-45e8-a906-7bd665e08b9f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SB%27s FrameWork.h">
+      <Filter>99.Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>02.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMenu.h">
+      <Filter>02.Scene\02.MyMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>02.Scene\03.Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="MyEdit.h">
+      <Filter>02.Scene\04.Edit</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectPlayer.h">
+      <Filter>02.Scene\02.SelectPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>01.GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>01.GameObject\01.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="MyButton.h">
+      <Filter>01.GameObject\02.Button%28삭제 예정%29</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>00.MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="BitBmp.h">
+      <Filter>97.Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjMgr.h">
+      <Filter>97.Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>97.Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundMgr.h">
+      <Filter>97.Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Const.h">
+      <Filter>98.Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>98.Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>98.Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include.h">
+      <Filter>98.Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Macro.h">
+      <Filter>98.Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>98.Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SB%27s FrameWork.cpp">
+      <Filter>99.Default\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundMgr.cpp">
+      <Filter>99.Default\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Default\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>02.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MyMenu.cpp">
+      <Filter>02.Scene\02.MyMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>02.Scene\03.Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="MyEdit.cpp">
+      <Filter>02.Scene\04.Edit</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectPlayer.cpp">
+      <Filter>02.Scene\02.SelectPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>01.GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>01.GameObject\01.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="MyButton.cpp">
+      <Filter>01.GameObject\02.Button%28삭제 예정%29</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>00.MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="BitBmp.cpp">
+      <Filter>97.Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjMgr.cpp">
+      <Filter>97.Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>97.Manager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="SB%27s FrameWork.ico">
+      <Filter>99.Default\리소스 파일</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>99.Default\리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SB%27s FrameWork.rc">
+      <Filter>99.Default\리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

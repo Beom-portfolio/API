@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SB's FrameWork", "SB's FrameWork\SB's FrameWork.vcproj", "{A65C06DA-5DCC-4CF0-BFD5-4E3F83E0BFBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A65C06DA-5DCC-4CF0-BFD5-4E3F83E0BFBC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A65C06DA-5DCC-4CF0-BFD5-4E3F83E0BFBC}.Debug|Win32.Build.0 = Debug|Win32
+		{A65C06DA-5DCC-4CF0-BFD5-4E3F83E0BFBC}.Release|Win32.ActiveCfg = Release|Win32
+		{A65C06DA-5DCC-4CF0-BFD5-4E3F83E0BFBC}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

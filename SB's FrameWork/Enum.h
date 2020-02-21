@@ -1,0 +1,25 @@
+#ifndef _ENUM_H_
+#define _ENUM_H_
+
+enum eObjectType
+{
+	OBJ_BACKGROUND,
+	OBJ_PLAYER,
+	OBJ_MONSTER,
+	OBJ_BULLET,
+	OBJ_EFFECT,
+	OBJ_UI,
+	OBJ_END,
+};
+
+enum eSceneState
+{
+	SCENE_LOGO,
+	SCENE_MENU,
+	SCENE_SELECT_PLAYER,
+	SCENE_STAGE,
+	SCENE_EDIT,
+	SCENE_END,
+};
+
+#endif
